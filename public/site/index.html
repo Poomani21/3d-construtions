@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MERIDIAN — Construction &amp; Architectural Engineering</title>
+<meta name="description" content="Meridian builds precision architecture: structural engineering, design-build delivery and architectural visualization for towers, campuses and infrastructure." />
+<meta property="og:title" content="MERIDIAN — Construction &amp; Architectural Engineering" />
+<meta property="og:description" content="Precision architecture, structural engineering and design-build delivery. 20+ years, 150+ completed projects." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body class="is-loading">
+
+<!-- ===== CINEMATIC BOOT CURTAIN ===== -->
+<div class="curtain" id="curtain">
+  <div class="curtain__inner">
+    <div class="curtain__label">MERIDIAN / STRUCTURAL WORKS</div>
+    <div class="curtain__bar"><span id="curtainBar"></span></div>
+    <div class="curtain__count"><span id="curtainNum">00</span></div>
+  </div>
+</div>
+
+<!-- ===== ARCHITECTURAL CURSOR ===== -->
+<div class="cursor" id="cursor"><span class="cursor__label"></span></div>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top">
+    <span class="nav__mark"><i></i><i></i><i></i><i></i></span>
+    <span class="nav__name">MERIDIAN</span>
+  </a>
+  <nav class="nav__links">
+    <a href="#projects">01 / Projects</a>
+    <a href="#services">02 / Services</a>
+    <a href="#studio">03 / Studio</a>
+    <a href="#process">04 / Process</a>
+  </nav>
+  <a href="#contact" class="btn btn--ghost" data-cursor="OPEN"><span>Start a project</span><i class="btn__arrow">→</i></a>
+  <button class="nav__burger" id="burger" aria-label="Menu"><i></i><i></i></button>
+</header>
+
+<!-- ===== HERO ===== -->
+<main id="top">
+<section class="hero" id="hero">
+  <div class="stage" id="heroStage">
+    <div class="stage__world" id="heroWorld">
+
+      <!-- depth: far photo -->
+      <div class="layer layer--photo" data-depth="2">
+        <img src="../images/hero.jpg" alt="Concrete and glass tower under construction at dusk" width="1920" height="1280" />
+        <div class="layer--photo__veil"></div>
+      </div>
+
+      <!-- depth: blueprint grid -->
+      <div class="layer layer--grid" data-depth="5" id="heroGrid"></div>
+
+      <!-- depth: perspective floor -->
+      <div class="layer layer--floor" data-depth="6"><div class="floor"></div></div>
+
+      <!-- depth: rear architectural panels -->
+      <div class="layer layer--panels" data-depth="9">
+        <span class="apanel apanel--a"></span>
+        <span class="apanel apanel--b"></span>
+        <span class="apanel apanel--c"></span>
+      </div>
+
+      <!-- depth: structural lines -->
+      <div class="layer layer--lines" data-depth="12">
+        <span class="sline sline--v1"></span>
+        <span class="sline sline--v2"></span>
+        <span class="sline sline--h1"></span>
+        <span class="sline sline--h2"></span>
+        <span class="sdim sdim--left"><i></i><em>42.500 m</em></span>
+        <span class="sdim sdim--bottom"><i></i><em>GRID A—F / 6 BAYS</em></span>
+      </div>
+
+      <!-- depth: the assembling building -->
+      <div class="layer layer--tower" data-depth="16">
+        <div class="tower" id="tower">
+          <span class="slab slab--glass" style="--i:7"><b>EXTERIOR / GLAZING</b></span>
+          <span class="slab" style="--i:6"><b>STRUCTURAL FRAME</b></span>
+          <span class="slab" style="--i:5"><b>LEVEL 03</b></span>
+          <span class="slab" style="--i:4"><b>LEVEL 02</b></span>
+          <span class="slab" style="--i:3"><b>LEVEL 01</b></span>
+          <span class="slab" style="--i:2"><b>GROUND FLOOR</b></span>
+          <span class="slab slab--base" style="--i:1"><b>FOUNDATION</b></span>
+          <span class="tower__core"></span>
+        </div>
+      </div>
+
+      <!-- depth: floating technical tags -->
+      <div class="layer layer--tags" data-depth="18">
+        <span class="tag tag--1">SITE 04 · STRUCTURAL MODEL</span>
+        <span class="tag tag--2">LOAD ✓ VERIFIED</span>
+        <span class="tag tag--3">REV 12 · 2026</span>
+      </div>
+
+      <!-- depth: copy -->
+      <div class="layer layer--copy" data-depth="14">
+        <div class="hero__copy">
+          <p class="eyebrow reveal-line"><i></i>Construction &amp; Architectural Engineering</p>
+          <h1 class="hero__title">
+            <span class="rline"><span>WE BUILD</span></span>
+            <span class="rline"><span>WHAT OTHERS</span></span>
+            <span class="rline"><span class="accent">ONLY DRAW.</span></span>
+          </h1>
+          <p class="hero__sub reveal-line">Design-build delivery for towers, campuses and infrastructure — engineered to the millimetre, modelled before a single pour.</p>
+          <div class="hero__cta reveal-line">
+            <a href="#projects" class="btn btn--solid" data-cursor="VIEW"><span>Explore projects</span><i class="btn__arrow">→</i></a>
+            <a href="#contact" class="btn btn--line" data-cursor="OPEN"><span>Request a consultation</span><i class="btn__arrow">→</i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="hero__meta">
+    <div class="metric"><b>20+</b><em>Years</em></div>
+    <div class="metric"><b>150+</b><em>Projects</em></div>
+    <div class="metric"><b>75+</b><em>Professionals</em></div>
+    <div class="scrollhint"><i></i>SCROLL</div>
+  </div>
+</section>
+
+<!-- ===== MARQUEE STRIP ===== -->
+<div class="strip"><div class="strip__track">
+  <span>PLAN</span><i>/</i><span>DESIGN</span><i>/</i><span>ENGINEER</span><i>/</i><span>BUILD</span><i>/</i><span>COMPLETE</span><i>/</i>
+  <span>PLAN</span><i>/</i><span>DESIGN</span><i>/</i><span>ENGINEER</span><i>/</i><span>BUILD</span><i>/</i><span>COMPLETE</span><i>/</i>
+</div></div>
+
+<!-- ===== PROJECTS ===== -->
+<section class="section section--projects" id="projects">
+  <div class="shead">
+    <p class="eyebrow reveal"><i></i>01 / Projects</p>
+    <h2 class="shead__title reveal">ARCHITECTURAL<br />EXCELLENCE</h2>
+    <p class="shead__note reveal">Every project begins as a model and ends as a landmark. Hover a model to inspect it.</p>
+  </div>
+
+  <div class="pgrid">
+    <article class="pcard reveal" data-tilt data-cursor="VIEW">
+      <div class="pcard__depth">
+        <div class="pcard__frame"></div>
+        <div class="pcard__media"><img src="../images/project-1.jpg" alt="Brutalist concrete residential tower" width="1200" height="1500" loading="lazy" /></div>
+        <div class="pcard__body">
+          <span class="pcard__idx">P—01</span>
+          <h3>Vertex Residences</h3>
+          <ul class="pcard__spec">
+            <li><em>Location</em><b>Rotterdam, NL</b></li>
+            <li><em>Year</em><b>2025</b></li>
+            <li><em>Category</em><b>Residential Tower</b></li>
+            <li><em>Scope</em><b>Design-Build</b></li>
+          </ul>
+          <span class="pcard__go">→</span>
+        </div>
+        <span class="pcard__scan"></span>
+      </div>
+    </article>
+
+    <article class="pcard pcard--tall reveal" data-tilt data-cursor="VIEW">
+      <div class="pcard__depth">
+        <div class="pcard__frame"></div>
+        <div class="pcard__media"><img src="../images/project-2.jpg" alt="Glass corporate headquarters facade" width="1200" height="1500" loading="lazy" /></div>
+        <div class="pcard__body">
+          <span class="pcard__idx">P—02</span>
+          <h3>Northline HQ</h3>
+          <ul class="pcard__spec">
+            <li><em>Location</em><b>Oslo, NO</b></li>
+            <li><em>Year</em><b>2024</b></li>
+            <li><em>Category</em><b>Commercial</b></li>
+            <li><em>Scope</em><b>Facade Engineering</b></li>
+          </ul>
+          <span class="pcard__go">→</span>
+        </div>
+        <span class="pcard__scan"></span>
+      </div>
+    </article>
+
+    <article class="pcard reveal" data-tilt data-cursor="VIEW">
+      <div class="pcard__depth">
+        <div class="pcard__frame"></div>
+        <div class="pcard__media"><img src="../images/project-bridge.jpg" alt="Long span bridge under construction" width="1200" height="1500" loading="lazy" /></div>
+        <div class="pcard__body">
+          <span class="pcard__idx">P—03</span>
+          <h3>Kestrel Crossing</h3>
+          <ul class="pcard__spec">
+            <li><em>Location</em><b>Porto, PT</b></li>
+            <li><em>Year</em><b>2023</b></li>
+            <li><em>Category</em><b>Infrastructure</b></li>
+            <li><em>Scope</em><b>Structural Works</b></li>
+          </ul>
+          <span class="pcard__go">→</span>
+        </div>
+        <span class="pcard__scan"></span>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ===== BLUEPRINT FLOOR ===== -->
+<section class="blueprint" id="blueprint">
+  <div class="blueprint__scene">
+    <div class="blueprint__floor"></div>
+    <div class="blueprint__horizon"></div>
+    <div class="blueprint__plan">
+      <span class="plan__outline"></span>
+      <span class="plan__outline plan__outline--in"></span>
+      <span class="plan__core"></span>
+      <span class="plan__label plan__label--1">CORE / SHEAR WALL</span>
+      <span class="plan__label plan__label--2">SPAN 8.400</span>
+      <span class="plan__label plan__label--3">SECTION B—B</span>
+    </div>
+  </div>
+  <div class="blueprint__copy">
+    <p class="eyebrow reveal"><i></i>Engineering discipline</p>
+    <h2 class="blueprint__title reveal">DRAWN TO<br />TOLERANCE.</h2>
+    <p class="reveal">Structural models, clash detection and load verification are completed before mobilisation. What is drawn is what is built — to ±2&nbsp;mm.</p>
+    <div class="blueprint__specs reveal">
+      <div><b>±2 mm</b><em>Setting-out tolerance</em></div>
+      <div><b>0</b><em>Structural reworks, 5 yrs</em></div>
+      <div><b>98%</b><em>On-programme handover</em></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="section section--services" id="services">
+  <div class="shead">
+    <p class="eyebrow reveal"><i></i>02 / Services</p>
+    <h2 class="shead__title reveal">CAPABILITY<br />STACK</h2>
+  </div>
+  <div class="sgrid">
+    <article class="scard reveal" data-tilt data-cursor="OPEN">
+      <span class="scard__num">01</span>
+      <div class="scard__plate">
+        <span class="scard__rule"></span>
+        <h3>ARCHITECTURE</h3>
+        <p>Concept, massing and detailed design developed inside a live structural model.</p>
+        <span class="scard__go">DETAILS →</span>
+      </div>
+    </article>
+    <article class="scard reveal" data-tilt data-cursor="OPEN">
+      <span class="scard__num">02</span>
+      <div class="scard__plate">
+        <span class="scard__rule"></span>
+        <h3>ENGINEERING</h3>
+        <p>Structural, geotechnical and facade engineering with full load verification.</p>
+        <span class="scard__go">DETAILS →</span>
+      </div>
+    </article>
+    <article class="scard reveal" data-tilt data-cursor="OPEN">
+      <span class="scard__num">03</span>
+      <div class="scard__plate">
+        <span class="scard__rule"></span>
+        <h3>CONSTRUCTION</h3>
+        <p>Self-delivered concrete frame, envelope and fit-out under one programme.</p>
+        <span class="scard__go">DETAILS →</span>
+      </div>
+    </article>
+    <article class="scard reveal" data-tilt data-cursor="OPEN">
+      <span class="scard__num">04</span>
+      <div class="scard__plate">
+        <span class="scard__rule"></span>
+        <h3>VISUALIZATION</h3>
+        <p>Photoreal architectural imagery and walkthroughs for approvals and sales.</p>
+        <span class="scard__go">DETAILS →</span>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ===== STUDIO / ABOUT ===== -->
+<section class="section section--studio" id="studio">
+  <div class="studio">
+    <div class="studio__visual">
+      <span class="studio__grid" data-para="-30"></span>
+      <span class="studio__frame" data-para="-14"></span>
+      <div class="studio__img img3d" data-para="0"><img src="../images/about.jpg" alt="Raw concrete interior under construction" width="1400" height="1600" loading="lazy" /></div>
+      <div class="stat stat--1" data-para="46"><b>20+</b><em>YEARS</em></div>
+      <div class="stat stat--2" data-para="74"><b>150+</b><em>PROJECTS</em></div>
+      <div class="stat stat--3" data-para="100"><b>75+</b><em>PROFESSIONALS</em></div>
+    </div>
+    <div class="studio__copy">
+      <p class="eyebrow reveal"><i></i>03 / Studio</p>
+      <h2 class="shead__title reveal">PRECISION IS<br />A CULTURE,<br />NOT A CLAIM.</h2>
+      <p class="reveal">Meridian was founded in 2005 by engineers who were tired of drawings that could not be built. Two decades later we operate as one team across design, engineering and site — which is why our tolerances hold and our programmes land.</p>
+      <p class="reveal">We take on work where geometry is difficult, sites are tight and the client expects the model and the building to be indistinguishable.</p>
+      <ul class="studio__list reveal">
+        <li>Design-build, single point of responsibility</li>
+        <li>In-house structural &amp; facade engineering</li>
+        <li>Model-first delivery with clash-free coordination</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BIG STATS ===== -->
+<section class="bigstats">
+  <div class="bigstat reveal-z"><b>20+</b><em>YEARS OF STRUCTURAL WORKS</em></div>
+  <div class="bigstat reveal-z"><b>150+</b><em>COMPLETED PROJECTS</em></div>
+  <div class="bigstat reveal-z"><b>1.9M</b><em>SQ.M DELIVERED</em></div>
+</section>
+
+<!-- ===== PROCESS ===== -->
+<section class="section section--process" id="process">
+  <div class="shead">
+    <p class="eyebrow reveal"><i></i>04 / Process</p>
+    <h2 class="shead__title reveal">SIX LAYERS<br />TO HANDOVER</h2>
+  </div>
+  <div class="timeline" id="timeline">
+    <span class="timeline__spine"></span>
+    <article class="step"><span class="step__num">01</span><div class="step__plate"><h3>CONSULTATION</h3><p>Brief, site constraints, feasibility and an honest cost band before anything is drawn.</p></div></article>
+    <article class="step"><span class="step__num">02</span><div class="step__plate"><h3>DESIGN</h3><p>Massing and architectural intent resolved against buildability from day one.</p></div></article>
+    <article class="step"><span class="step__num">03</span><div class="step__plate"><h3>ENGINEERING</h3><p>Structural scheme, loads, geotechnics and facade performance signed off.</p></div></article>
+    <article class="step"><span class="step__num">04</span><div class="step__plate"><h3>CONSTRUCTION</h3><p>Self-delivered frame and envelope, sequenced weekly against the model.</p></div></article>
+    <article class="step"><span class="step__num">05</span><div class="step__plate"><h3>QUALITY CONTROL</h3><p>Independent survey, tolerance audit and systems commissioning.</p></div></article>
+    <article class="step"><span class="step__num">06</span><div class="step__plate"><h3>HANDOVER</h3><p>As-built model, warranties and a 24-month aftercare programme.</p></div></article>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta" id="contact">
+  <div class="cta__bg"><img src="../images/cta.jpg" alt="Night construction site with tower cranes" width="1920" height="1080" loading="lazy" /></div>
+  <div class="cta__scene">
+    <span class="cta__frame"></span>
+    <span class="cta__frame cta__frame--in"></span>
+    <div class="cta__inner">
+      <p class="eyebrow"><i></i>Next project</p>
+      <h2 class="cta__title text3d">
+        <span class="rline"><span>LET'S BUILD</span></span>
+        <span class="rline"><span>SOMETHING</span></span>
+        <span class="rline"><span class="accent">EXCEPTIONAL.</span></span>
+      </h2>
+      <div class="cta__row">
+        <a href="mailto:studio@meridian-works.com" class="btn btn--solid" data-cursor="OPEN"><span>studio@meridian-works.com</span><i class="btn__arrow">→</i></a>
+        <a href="tel:+3120000000" class="btn btn--line" data-cursor="OPEN"><span>+31 20 000 0000</span><i class="btn__arrow">→</i></a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="foot__brand"><span class="nav__mark"><i></i><i></i><i></i><i></i></span> MERIDIAN STRUCTURAL WORKS</div>
+  <div class="foot__cols">
+    <div><em>Studio</em>Keileweg 24<br />Rotterdam, NL</div>
+    <div><em>Site office</em>Havenstraat 8<br />Antwerp, BE</div>
+    <div><em>Legal</em>KVK 000000<br />BTW NL0000B01</div>
+  </div>
+  <div class="foot__base"><span>© 2026 Meridian</span><span>PLAN / DESIGN / ENGINEER / BUILD</span></div>
+</footer>
+
+<script src="./main.js" defer></script>
+</body>
+</html>
