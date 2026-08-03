@@ -115,7 +115,7 @@
       var d = parseFloat(el.getAttribute("data-depth")) || 0;
       var px = -lmx * d * 2.2;
       var py = -lmy * d * 1.7;
-      var pz = (d - 12) * 8; // static z separation
+      var pz = (d - 12) * 4; // static z separation
       var sy = heroScroll * (d - 12) * 0.55; // scroll depth drift
       el.style.transform =
         "translate3d(" + px + "px," + (py + sy) + "px," + pz + "px)";
